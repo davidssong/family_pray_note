@@ -215,7 +215,7 @@ const MEMBERS = [
   { key:"jiwon",   name:"지원", color:"#6f8f5a" }, // 세이지
   { key:"roa",     name:"로아", color:"#c0708e" }, // 핑크/로즈
   { key:"rohee",   name:"로희", color:"#c98a2e" }, // 앰버
-  { key:"family",  name:"중보기도", color:"#8a5a7a" } // 플럼
+  { key:"family",  name:"중보", color:"#8a5a7a" } // 플럼
 ];
 const memberOf = k => MEMBERS.find(m => m.key === k);
 const WD = ["일","월","화","수","목","금","토"];
@@ -346,7 +346,7 @@ function render(){
             + (c.share?`<span class="share">💬 ${esc(c.share)}</span>`:"")
           : `<span class="empty">＋ 기도제목 적기</span>`;
         const bg = hasTopic ? `background:linear-gradient(160deg,#fffaf0,${m.color}12)` : `background:#fffdf8`;
-        const who = m.key === "family" ? "중보<br> 기도" : m.name;
+        const who = m.key === "family" ? "중보" : m.name;
         return `<button class="cell" data-date="${date}" data-member="${m.key}" style="border-left:4px solid ${m.color};${bg}">
           <span class="who" style="color:${m.color}">${who}</span>
           <span class="col">${inner}</span>
