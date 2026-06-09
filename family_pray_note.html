@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="color-scheme" content="light" />
+<meta name="theme-color" content="#f4ecdb" />
+<title>우리 가족 기도 노트</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<style>
+  /* 손글씨 폰트 내장(서브셋): 어디서 열어도 같은 글씨로 보이도록 */
+  @font-face{font-family:'NPSsub';font-weight:400;font-style:normal;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2');}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{background-color:#f4ecdb;color-scheme:only light;}
+  :root{
+    color-scheme:only light;
+    --paper:#f4ecdb; --paper2:#ece0c6; --card:#fbf6ec; --ink:#322b21;
+    --soft:#7c6e58; --line:#ddcdac; --clay:#a8543a; --gold:#b8893f;
+    --serif:'Gowun Batang',serif; --script:'NPSsub','Nanum Pen Script',cursive; --body:'Gowun Dodum',sans-serif;
+  }
+  body{
+    font-family:var(--body); color:var(--ink); word-break:keep-all;
+    min-height:100vh; padding:26px 14px 70px;
+    background:
+      radial-gradient(circle at 18% 0%, #faf3e3 0%, transparent 55%),
+      radial-gradient(circle at 92% 8%, #f6ecd6 0%, transparent 50%),
+      linear-gradient(180deg,var(--paper),var(--paper2));
+  }
+  .wrap{max-width:720px;margin:0 auto;}
+  .title{font-family:var(--serif);font-weight:700;font-size:clamp(28px,7vw,42px);text-align:center;line-height:1.18;}
+  .script{font-family:var(--script);text-align:center;color:var(--clay);font-size:clamp(30px,9.2vw,46px);margin:14px 0 6px;line-height:1.12;white-space:nowrap;overflow:hidden;}
+  .sub{text-align:center;color:var(--soft);font-size:13px;line-height:1.7;max-width:420px;margin:0 auto 4px;}
+  .sub b{color:var(--clay);}
+  .answered-line{text-align:center;color:var(--soft);font-size:12px;margin:2px 0 0;}
+  .answered-line b{color:var(--clay);}
+
+  .addwrap{text-align:center;margin:22px 0 26px;}
+  .addbtn{border:none;border-radius:999px;padding:12px 22px;font-family:var(--body);font-size:14px;font-weight:700;color:#fff;cursor:pointer;
+    background:linear-gradient(135deg,#a8543a,#8c3f2c);box-shadow:0 6px 16px rgba(140,63,44,.28);}
+  .addbtn:active{transform:scale(.98);}
+
+  .empty-state{text-align:center;color:var(--soft);font-size:13.5px;padding:40px 10px;border:1px dashed var(--line);border-radius:16px;background:rgba(255,255,255,.4);}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 16px 16px;margin-bottom:18px;box-shadow:0 4px 14px rgba(80,60,25,.06);}
+  .chead{display:flex;align-items:baseline;gap:10px;margin-bottom:14px;}
+  .chead h2{font-family:var(--serif);font-size:21px;font-weight:700;}
+  .chead .wd{color:var(--soft);font-size:13px;}
+  .chead .ln{flex:1;height:1px;background:linear-gradient(90deg,var(--gold),transparent);align-self:center;}
+  .chead .del{border:none;background:transparent;color:#c2b594;cursor:pointer;font-size:13px;padding:2px;}
+
+  .cells{display:grid;gap:9px;}
+  .cell{text-align:left;cursor:pointer;font-family:var(--body);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:11px 13px;display:flex;gap:11px;align-items:flex-start;width:100%;
+    transition:transform .15s ease, box-shadow .2s ease;}
+  .cell:hover{box-shadow:0 7px 16px rgba(80,60,25,.13);}
+  .cell:active{transform:scale(.99);}
+  .cell .who{flex:0 0 auto;min-width:52px;font-weight:700;font-size:14px;line-height:1.25;}
+  .cell .col{flex:1;min-width:0;}
+  .cell .topic{display:block;font-size:14px;line-height:1.5;}
+  .cell .share{display:block;margin-top:4px;font-size:12px;color:var(--soft);line-height:1.5;}
+  .cell .empty{color:#c2b594;font-size:13px;}
+
+  .footnote{text-align:center;color:var(--soft);font-size:11.5px;line-height:1.6;margin-top:16px;}
+
+  .archive-wrap{margin-top:6px;text-align:center;}
+  .archive-toggle{border:1px solid var(--line);background:rgba(255,255,255,.5);border-radius:999px;padding:7px 15px;font-family:var(--body);font-size:12px;color:var(--soft);cursor:pointer;}
+  .archive-item{display:flex;align-items:center;justify-content:space-between;gap:10px;max-width:360px;margin:10px auto 0;background:rgba(255,255,255,.45);border:1px dashed var(--line);border-radius:12px;padding:10px 14px;}
+  .archive-item .d{font-size:13px;color:var(--soft);}
+  .archive-item .acts{display:flex;gap:14px;}
+  .archive-item .restore{border:none;background:transparent;color:var(--clay);font-weight:700;font-size:13px;cursor:pointer;}
+  .archive-item .purge{border:none;background:transparent;color:#bb5a47;font-weight:700;font-size:13px;cursor:pointer;}
+
+  .sync-row{display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:10px;}
+  .syncbtn{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.6);border:1px solid var(--line);border-radius:999px;padding:7px 15px;font-family:var(--body);font-size:12px;color:#5a4f3d;cursor:pointer;}
+  .status{font-size:11px;color:var(--soft);}
+  .status b{color:var(--clay);}
+
+  /* 모달 */
+  .back{position:fixed;inset:0;background:rgba(40,30,15,.46);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;padding:18px;z-index:50;}
+  .back.on{display:flex;animation:fade .2s ease;}
+  .modal{background:var(--card);border-radius:20px;width:100%;max-width:430px;overflow:hidden;border:1px solid var(--line);box-shadow:0 24px 60px rgba(40,28,10,.4);animation:pop .26s cubic-bezier(.2,.9,.3,1.2);}
+  .modal.sm{max-width:360px;}
+  .mhead{padding:18px 22px 15px;color:#f5eddb;position:relative;}
+  .mhead .who{font-family:var(--serif);font-size:22px;font-weight:700;}
+  .mhead .when{font-size:13px;opacity:.9;margin-top:2px;}
+  .close{position:absolute;top:14px;right:14px;background:rgba(255,255,255,.18);border:none;width:32px;height:32px;border-radius:50%;color:#fff;cursor:pointer;font-size:18px;line-height:1;}
+  .mbody{padding:18px 22px 22px;}
+  .field{margin-bottom:15px;}
+  .field label{display:block;font-size:12px;font-weight:700;color:var(--soft);margin-bottom:7px;}
+  .inp,.area{width:100%;border:1.5px solid var(--line);border-radius:11px;padding:11px 13px;font-family:var(--body);font-size:14px;color:var(--ink);background:#fffdf8;outline:none;transition:border-color .15s;}
+  .inp:focus,.area:focus{border-color:var(--clay);}
+  .area{resize:vertical;min-height:110px;line-height:1.6;}
+  .ans{display:flex;align-items:center;gap:9px;font-size:13.5px;color:var(--soft);margin-bottom:18px;cursor:pointer;}
+  .ans input{width:18px;height:18px;accent-color:var(--clay);}
+  .save{width:100%;border:none;border-radius:12px;padding:13px;font-family:var(--body);font-size:15px;font-weight:700;color:#fff;cursor:pointer;background:linear-gradient(135deg,#a8543a,#8c3f2c);box-shadow:0 6px 16px rgba(140,63,44,.3);}
+  .save:active{transform:scale(.98);}
+  .mtitle{font-family:var(--serif);font-size:18px;font-weight:700;text-align:center;margin-bottom:8px;}
+  .mtext{font-size:13px;color:var(--soft);line-height:1.6;text-align:center;margin:0 0 18px;}
+  .btn-row{display:flex;gap:9px;}
+  .ghost{flex:1;border:1px solid var(--line);background:#fffdf8;border-radius:12px;padding:12px;font-family:var(--body);font-size:14px;color:var(--soft);cursor:pointer;}
+  .solid{flex:1;border:none;border-radius:12px;padding:12px;font-family:var(--body);font-size:14px;font-weight:700;color:#fff;cursor:pointer;background:linear-gradient(135deg,#a8543a,#8c3f2c);}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  @keyframes pop{from{opacity:0;transform:scale(.92) translateY(10px)}to{opacity:1;transform:scale(1) translateY(0)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="title">우리 가족 기도 노트</h1>
+  <p class="script">서로의 기도제목을 마음에 품고</p>
+  <p class="sub">매주 함께 나눈 기도제목과 이야기를 한 장씩 적어요.</p>
+  <p class="answered-line" id="answeredLine"></p>
+
+  <div class="addwrap">
+    <button class="addbtn" id="addBtn">＋ 이번 주 기도회 추가</button>
+  </div>
+
+  <div id="list"></div>
+
+  <p class="footnote">칸을 누르면 기도제목과 나눈 이야기를 적을 수 있어요.</p>
+
+  <div class="archive-wrap" id="archiveWrap"></div>
+
+  <div class="sync-row">
+    <div class="status" id="status"></div>
+  </div>
+</div>
+
+<!-- 편집 모달 -->
+<div class="back" id="editBack">
+  <div class="modal">
+    <div class="mhead" id="editHead">
+      <div class="who" id="eWho"></div>
+      <div class="when" id="eWhen"></div>
+      <button class="close" id="editClose">×</button>
+    </div>
+    <div class="mbody">
+      <div class="field">
+        <label>기도제목</label>
+        <input class="inp" id="eTopic" placeholder="이번 주 기도제목을 적어주세요" />
+      </div>
+      <div class="field">
+        <label>나눈 이야기 (선택)</label>
+        <textarea class="area" id="eShare" placeholder="기도회 때 함께 나눈 이야기나 마음을 기록해요"></textarea>
+      </div>
+      <label class="ans">
+        <input type="checkbox" id="eAnswered" />
+        🙏 이 기도가 응답되었어요
+      </label>
+      <button class="save" id="eSave">저장하기</button>
+    </div>
+  </div>
+</div>
+
+<!-- 날짜 추가 모달 -->
+<div class="back" id="addBack">
+  <div class="modal sm">
+    <div class="mbody">
+      <div class="mtitle">기도회 날짜 선택</div>
+      <input class="inp" type="date" id="addDate" style="margin-bottom:16px" />
+      <div class="btn-row">
+        <button class="ghost" id="addCancel">취소</button>
+        <button class="solid" id="addConfirm">추가하기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 삭제 확인 모달 -->
+<div class="back" id="delBack">
+  <div class="modal sm">
+    <div class="mbody">
+      <div class="mtitle">이 기록을 삭제할까요?</div>
+      <p class="mtext" id="delText"></p>
+      <div class="btn-row">
+        <button class="ghost" id="delCancel">취소</button>
+        <button class="solid" id="delConfirm">삭제하기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 영구 삭제 확인 모달 -->
+<div class="back" id="purgeBack">
+  <div class="modal sm">
+    <div class="mbody">
+      <div class="mtitle">영구 삭제할까요?</div>
+      <p class="mtext" id="purgeText"></p>
+      <div class="btn-row">
+        <button class="ghost" id="purgeCancel">취소</button>
+        <button class="solid" id="purgeConfirm">영구 삭제</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ══════════════════════════════════════════════════════════════
+   ★ 공유 설정 (한 번만) — 구글 시트를 저장소로 사용합니다.
+     함께 드린 Code.gs 안내대로 구글 시트 + Apps Script를 만들고,
+     배포 후 나오는 웹앱 주소(.../exec 로 끝남)를 아래 "" 안에
+     붙여넣으세요. 비워두면 '이 기기에만' 저장됩니다(테스트용).
+   ══════════════════════════════════════════════════════════════ */
+const CONFIG = {
+  API_URL: "https://script.google.com/macros/s/AKfycbxkZPL05xbIRztY8kAY5CjEmX60yZIQmIFTDNdw6mlh-zrVqGHodqCActAQRfqzk35RgQ/exec"   
+// 예) "https://script.google.com/macros/s/AKfy...../exec"
+};
+/* ══════════════════════════════════════════════════════════════ */
+
+const LS_KEY = "family-prayer-note";
+const shared = () => !!CONFIG.API_URL;
+
+const MEMBERS = [
+  { key:"jaehyuk", name:"재혁", color:"#5b6a8c" }, // 블루
+  { key:"jiwon",   name:"지원", color:"#6f8f5a" }, // 세이지
+  { key:"roa",     name:"로아", color:"#c0708e" }, // 핑크/로즈
+  { key:"rohee",   name:"로희", color:"#c98a2e" }, // 앰버
+  { key:"family",  name:"중보기도", color:"#8a5a7a" } // 플럼
+];
+const memberOf = k => MEMBERS.find(m => m.key === k);
+const WD = ["일","월","화","수","목","금","토"];
+
+const esc = s => (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const pad = n => String(n).padStart(2,"0");
+const iso = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const todayIso = () => iso(new Date());
+function toDate(s){ const [y,m,d]=s.split("-").map(Number); return new Date(y,m-1,d); }
+function fmtDate(s){ const dt=toDate(s); return { md:`${dt.getMonth()+1}월 ${dt.getDate()}일`, wd:WD[dt.getDay()] }; }
+function emptyMembers(){ const m={}; MEMBERS.forEach(x=>m[x.key]={topic:"",share:"",answered:false}); return m; }
+
+let state = { sessions:{}, archived:{} };
+/* ── 사진에서 옮긴 6/8 기도 내용 (저장소가 비어 있을 때 처음 한 번만 채워짐) ── */
+const SEED = {
+  sessions: {
+    "2026-06-08": {
+      jaehyuk: { topic: "귀에서 웅웅, 치아 통증, 로아의 마음을 잘 받아 줄 수 있도록", share: "언젠가부터 오른쪽 귀에서 삐소리와 웅웅거리는 느낌으로 잘 안들리는 날이 있음. 수면부족 문제인지 스트레스 때문인지 모르겠음. 왼쪽 아래 어금니가 시리고 아프기 시작. 양치 잘하고 관리 필요. 로아가 우는걸 보면 마음이 힘들고 같이 기분이 안좋아지는데 로아 마음을 잘 품어주면서 로아 스스로도 감정을 잘 조절하게 되길.", answered: false },
+      jiwon:   { topic: "아이들의 극단적인 감정 상황을 잘 받아들일 수 있도록", share: "로아는 기분이 좋으면 텐션이 아주 높았다가 또 갑자기 울기도 하고 감정이 왔다갔다 하는데 여기에 로희도 울고 보채면 많이 힘듦. 아이들의 감정을 포용하고 육적으로나 영적으로 지치지 않도록.", answered: false },
+      roa:     { topic: "무서운 꿈 꾸지 않게 해주세요", share: "무서운 꿈 꿀거 같다고 하루에도 몇번씩 움. 그 우는걸 달래는 시간이 길어지니 힘듦 (아빠, 엄마)", answered: false },
+      rohee:   { topic: "어린이집에 잘 적응하게 해주세요.", share: "엄마가 없어도 점심 잘 먹고 낮잠 잘 잘 수 있도록. 점심은 잘 먹고 있음.", answered: false },
+      family:  { topic: "희찬/다은쌤과 그 가정을 위해", share: "영아부 코치/부총무, 창조과학팀, 순장, 마더와이즈 조장 등 교회에서 맡은 많은 일들을 감당하는데 지치지 않고 하나님께서 주시는 지혜와 능력으로 행하시길.", answered: false }
+    }
+  },
+  archived: {}
+};
+const SEED_FLAG = "pn-seeded-2026-06-08";
+function alreadySeeded(){ try{ return localStorage.getItem(SEED_FLAG) === "1"; }catch(e){ return false; } }
+function markSeeded(){ try{ localStorage.setItem(SEED_FLAG, "1"); }catch(e){} }
+let editTarget = null;  // { date, member }
+let delTarget = null;   // date
+let purgeTarget = null; // date (영구 삭제 대상)
+
+/* ---------- 저장소 ---------- */
+function jsonpGet(url){
+  return new Promise((resolve,reject)=>{
+    const cb="__cb_"+Math.random().toString(36).slice(2);
+    const sep=url.indexOf("?")>=0?"&":"?";
+    const s=document.createElement("script");
+    const timer=setTimeout(()=>{cleanup();reject(new Error("timeout"));},12000);
+    function cleanup(){ try{delete window[cb];}catch(e){} s.remove(); clearTimeout(timer); }
+    window[cb]=data=>{ cleanup(); resolve(data||{}); };
+    s.onerror=()=>{ cleanup(); reject(new Error("network")); };
+    s.src=url+sep+"callback="+cb+"&t="+Date.now();
+    document.body.appendChild(s);
+  });
+}
+
+async function fetchData(){
+  if(!shared()){
+    try{ return JSON.parse(localStorage.getItem(LS_KEY)) || { sessions:{}, archived:{} }; }
+    catch(e){ return { sessions:{}, archived:{} }; }
+  }
+  const r = await jsonpGet(CONFIG.API_URL);
+  if(!r.sessions) r.sessions={};
+  if(!r.archived) r.archived={};
+  return r;
+}
+
+// 서버로 동작 전송(서버가 합쳐서 저장 → 동시 수정에도 안전).
+// 로컬 모드에서는 같은 로직을 브라우저에서 직접 적용.
+async function postAction(payload){
+  if(!shared()){
+    applyLocal(payload);
+    localStorage.setItem(LS_KEY, JSON.stringify(state));
+    return;
+  }
+  await fetch(CONFIG.API_URL, {
+    method:"POST", mode:"no-cors",
+    headers:{ "Content-Type":"text/plain;charset=utf-8" },
+    body: JSON.stringify(payload)
+  });
+}
+
+// 서버 로직과 동일 (로컬 모드 + 화면 즉시 반영용)
+function applyLocal(p){
+  if(!state.sessions) state.sessions={};
+  if(!state.archived) state.archived={};
+  if(p.patch){
+    const x=p.patch;
+    if(!state.sessions[x.date]) state.sessions[x.date]=emptyMembers();
+    state.sessions[x.date][x.member]={ topic:x.topic||"", share:x.share||"", answered:!!x.answered };
+  } else if(p.addSession){
+    const d=p.addSession.date;
+    if(!state.sessions[d]) state.sessions[d]=emptyMembers();
+  } else if(p.deleteSession){
+    const d=p.deleteSession.date;
+    if(state.sessions[d]){
+      state.archived[d]=Object.assign({}, state.sessions[d], { deletedAt:Date.now() });
+      delete state.sessions[d];
+    }
+  } else if(p.restoreSession){
+    const d=p.restoreSession.date;
+    if(state.archived[d]){
+      const a=state.archived[d]; delete a.deletedAt;
+      state.sessions[d]=a; delete state.archived[d];
+    }
+  } else if(p.purgeSession){
+    const d=p.purgeSession.date;
+    if(state.archived[d]) delete state.archived[d];  // 보관함에서 완전히 제거
+  }
+}
+
+/* ---------- 그리기 ---------- */
+function render(){
+  // 응답 개수
+  let answered=0;
+  Object.values(state.sessions||{}).forEach(items=>{
+    MEMBERS.forEach(m=>{ if(items[m.key] && items[m.key].answered) answered++; });
+  });
+  document.getElementById("answeredLine").innerHTML =
+    answered>0 ? `🙏 지금까지 응답으로 표시한 기도 <b>${answered}</b>개` : "";
+
+  // 카드 목록 (최신 날짜 위로)
+  const dates = Object.keys(state.sessions||{}).sort().reverse();
+  const list = document.getElementById("list");
+  if(dates.length===0){
+    list.innerHTML = `<div class="empty-state">아직 기록이 없어요. 위 버튼으로 이번 주 기도회를 추가해 보세요.</div>`;
+  } else {
+    list.innerHTML = dates.map(date=>{
+      const f=fmtDate(date);
+      const items=state.sessions[date]||{};
+      const rows=MEMBERS.map(m=>{
+        const c=items[m.key]||{};
+        const hasTopic=!!c.topic;
+        const inner = hasTopic
+          ? `<span class="topic">${c.answered?`<span style="color:${m.color};font-weight:700">✓ </span>`:""}${esc(c.topic)}</span>`
+            + (c.share?`<span class="share">💬 ${esc(c.share)}</span>`:"")
+          : `<span class="empty">＋ 기도제목 적기</span>`;
+        const bg = hasTopic ? `background:linear-gradient(160deg,#fffaf0,${m.color}12)` : `background:#fffdf8`;
+        const who = m.key === "family" ? "중보<br>기도" : m.name;
+        return `<button class="cell" data-date="${date}" data-member="${m.key}" style="border-left:4px solid ${m.color};${bg}">
+          <span class="who" style="color:${m.color}">${who}</span>
+          <span class="col">${inner}</span>
+        </button>`;
+      }).join("");
+      return `<section class="card">
+        <div class="chead">
+          <h2>${f.md}</h2><span class="wd">(${f.wd})</span><span class="ln"></span>
+          <button class="del" data-del="${date}">삭제</button>
+        </div>
+        <div class="cells">${rows}</div>
+      </section>`;
+    }).join("");
+  }
+
+  // 삭제 보관함
+  const archDates = Object.keys(state.archived||{}).sort().reverse();
+  const aw = document.getElementById("archiveWrap");
+  if(archDates.length===0){ aw.innerHTML=""; }
+  else {
+    const open = aw.getAttribute("data-open")==="1";
+    aw.innerHTML = `<button class="archive-toggle" id="archToggle">🗑 삭제한 기록 ${archDates.length}개 ${open?"접기":"보기"}</button>`
+      + (open ? archDates.map(d=>{
+          const f=fmtDate(d);
+          return `<div class="archive-item"><span class="d">${f.md} (${f.wd})</span><span class="acts"><button class="restore" data-restore="${d}">↩ 복구하기</button><button class="purge" data-purge="${d}">삭제하기</button></span></div>`;
+        }).join("") : "");
+  }
+}
+
+function setStatus(t){ document.getElementById("status").innerHTML=t; }
+
+async function sync(){
+  try{
+    const remote = await fetchData();
+    state = remote;
+    // 최초 1회: 저장소가 비어 있으면 사진에서 옮긴 6/8 내용을 채워 넣음
+    if(Object.keys(state.sessions||{}).length===0 && Object.keys(state.archived||{}).length===0 && !alreadySeeded()){
+      state = JSON.parse(JSON.stringify(SEED));
+      if(shared()){ await postAction({ full: state }); }
+      else { try{ localStorage.setItem(LS_KEY, JSON.stringify(state)); }catch(e){} }
+      markSeeded();
+    }
+    render();
+    setStatus(shared() ? "모두와 공유 중 · 동기화 완료" : "이 기기에만 저장됨 (공유 설정 안 됨)");
+  }catch(e){
+    setStatus("동기화 실패 — 잠시 후 다시 시도하세요");
+  }
+}
+
+/* ---------- 편집 모달 ---------- */
+function openEdit(date, memberKey){
+  editTarget={ date, member:memberKey };
+  const m=memberOf(memberKey), f=fmtDate(date);
+  const c=(state.sessions[date]&&state.sessions[date][memberKey])||{};
+  document.getElementById("eWho").textContent=m.name;
+  document.getElementById("eWhen").textContent=`${f.md} (${f.wd}) 기도`;
+  document.getElementById("editHead").style.background=`linear-gradient(135deg, ${m.color}, #2f2619)`;
+  document.getElementById("eTopic").value=c.topic||"";
+  document.getElementById("eShare").value=c.share||"";
+  document.getElementById("eAnswered").checked=!!c.answered;
+  document.getElementById("editBack").classList.add("on");
+}
+function closeEdit(){ document.getElementById("editBack").classList.remove("on"); editTarget=null; }
+
+async function saveEdit(){
+  if(!editTarget) return;
+  const topic=document.getElementById("eTopic").value.trim();
+  const share=document.getElementById("eShare").value.trim();
+  const answered=document.getElementById("eAnswered").checked;
+  const btn=document.getElementById("eSave");
+  btn.textContent="저장 중…";
+  try{
+    await postAction({ patch:{ date:editTarget.date, member:editTarget.member, topic, share, answered } });
+    // 화면 즉시 반영
+    if(!state.sessions[editTarget.date]) state.sessions[editTarget.date]=emptyMembers();
+    state.sessions[editTarget.date][editTarget.member]={ topic, share, answered };
+    render();
+    btn.textContent="✓ 저장됐어요";
+    setTimeout(()=>{ closeEdit(); btn.textContent="저장하기"; }, 600);
+  }catch(e){
+    btn.textContent="저장 실패 — 다시 시도";
+    setTimeout(()=>btn.textContent="저장하기",1500);
+  }
+}
+
+/* ---------- 날짜 추가 ---------- */
+function openAdd(){
+  document.getElementById("addDate").value=todayIso();
+  document.getElementById("addBack").classList.add("on");
+}
+function closeAdd(){ document.getElementById("addBack").classList.remove("on"); }
+async function confirmAdd(){
+  const d=document.getElementById("addDate").value;
+  if(!d){ closeAdd(); return; }
+  if(!state.sessions[d]){
+    await postAction({ addSession:{ date:d } });
+    state.sessions[d]=emptyMembers();
+    render();
+  }
+  closeAdd();
+}
+
+/* ---------- 삭제 / 복구 ---------- */
+function openDel(date){
+  delTarget=date;
+  const f=fmtDate(date);
+  document.getElementById("delText").innerHTML=
+    `${f.md} (${f.wd}) 기록이 삭제됩니다.<br>삭제한 기록은 보관함에 남아 다시 복구할 수 있어요.`;
+  document.getElementById("delBack").classList.add("on");
+}
+function closeDel(){ document.getElementById("delBack").classList.remove("on"); delTarget=null; }
+async function confirmDel(){
+  if(!delTarget) return;
+  const d=delTarget;
+  await postAction({ deleteSession:{ date:d } });
+  if(state.sessions[d]){
+    state.archived[d]=Object.assign({}, state.sessions[d], { deletedAt:Date.now() });
+    delete state.sessions[d];
+  }
+  render();
+  closeDel();
+}
+async function restore(date){
+  await postAction({ restoreSession:{ date } });
+  if(state.archived[date]){
+    const a=state.archived[date]; delete a.deletedAt;
+    state.sessions[date]=a; delete state.archived[date];
+  }
+  render();
+}
+function openPurge(date){
+  purgeTarget=date;
+  const f=fmtDate(date);
+  document.getElementById("purgeText").innerHTML=
+    `${f.md} (${f.wd}) 기록을 완전히 지웁니다.<br>이 작업은 되돌릴 수 없어요.`;
+  document.getElementById("purgeBack").classList.add("on");
+}
+function closePurge(){ document.getElementById("purgeBack").classList.remove("on"); purgeTarget=null; }
+async function confirmPurge(){
+  if(!purgeTarget) return;
+  const d=purgeTarget;
+  await postAction({ purgeSession:{ date:d } });
+  if(state.archived[d]) delete state.archived[d];
+  render();
+  closePurge();
+}
+
+/* ---------- 이벤트 ---------- */
+document.getElementById("addBtn").addEventListener("click", openAdd);
+document.getElementById("addCancel").addEventListener("click", closeAdd);
+document.getElementById("addConfirm").addEventListener("click", confirmAdd);
+document.getElementById("addBack").addEventListener("click", e=>{ if(e.target.id==="addBack") closeAdd(); });
+
+document.getElementById("editClose").addEventListener("click", closeEdit);
+document.getElementById("eSave").addEventListener("click", saveEdit);
+document.getElementById("editBack").addEventListener("click", e=>{ if(e.target.id==="editBack") closeEdit(); });
+
+document.getElementById("delCancel").addEventListener("click", closeDel);
+document.getElementById("delConfirm").addEventListener("click", confirmDel);
+document.getElementById("delBack").addEventListener("click", e=>{ if(e.target.id==="delBack") closeDel(); });
+
+document.getElementById("purgeCancel").addEventListener("click", closePurge);
+document.getElementById("purgeConfirm").addEventListener("click", confirmPurge);
+document.getElementById("purgeBack").addEventListener("click", e=>{ if(e.target.id==="purgeBack") closePurge(); });
+
+
+// 위임: 카드/셀/삭제/보관함
+document.getElementById("list").addEventListener("click", e=>{
+  const del=e.target.closest("[data-del]");
+  if(del){ openDel(del.getAttribute("data-del")); return; }
+  const cell=e.target.closest(".cell");
+  if(cell){ openEdit(cell.dataset.date, cell.dataset.member); }
+});
+document.getElementById("archiveWrap").addEventListener("click", e=>{
+  const t=e.target.closest("#archToggle");
+  if(t){ const aw=document.getElementById("archiveWrap"); aw.setAttribute("data-open", aw.getAttribute("data-open")==="1"?"0":"1"); render(); return; }
+  const r=e.target.closest("[data-restore]");
+  if(r){ restore(r.getAttribute("data-restore")); return; }
+  const pg=e.target.closest("[data-purge]");
+  if(pg){ openPurge(pg.getAttribute("data-purge")); }
+});
+
+// 다시 열거나 화면 복귀 시 최신으로
+document.addEventListener("visibilitychange", ()=>{ if(!document.hidden) sync(); });
+
+/* ---------- 시작 ---------- */
+render();
+sync();
+</script>
+</body>
+</html>
