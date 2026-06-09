@@ -346,7 +346,7 @@ function render(){
             + (c.share?`<span class="share">💬 ${esc(c.share)}</span>`:"")
           : `<span class="empty">＋ 기도제목 적기</span>`;
         const bg = hasTopic ? `background:linear-gradient(160deg,#fffaf0,${m.color}12)` : `background:#fffdf8`;
-        const who = m.key === "family" ? "중보<br>기도" : m.name;
+        const who = m.key === "family" ? "중보<br> 기도" : m.name;
         return `<button class="cell" data-date="${date}" data-member="${m.key}" style="border-left:4px solid ${m.color};${bg}">
           <span class="who" style="color:${m.color}">${who}</span>
           <span class="col">${inner}</span>
